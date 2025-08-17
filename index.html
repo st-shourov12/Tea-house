@@ -13,7 +13,7 @@
 <body>
     <header class="header pt-10 lg:pt-16 pb-[120px] px-6 sm:px-16 lg:px-[120px] xl:px-[200px] max-w-[1600px] mx-auto flex flex-col-reverse lg:flex-row  justify-between gap-4 ">
         <div class="header-content">
-            <h1 class="hero-title text-4xl leading-12 lg:text-[80px] font-extrabold sm:leading-24">
+            <h1 class="hero-title text-4xl leading-12 lg:text-[50px] lg:leading-14 xl:text-[80px] font-extrabold xl:leading-24">
                 It's good <br>
                 tea time at The Tea House
             </h1>
@@ -26,7 +26,7 @@
             </button>
         </div>
         <div class="header-img relative">
-            <img src="./assets/images/banner.png" class="lg:relative lg:top-[120px] sm:max-w-[640px] sm:max-h-[500px]" alt="">
+            <img src="./assets/images/banner.png" class="lg:relative xl:top-[120px] sm:max-w-[640px] sm:max-h-[500px]" alt="">
             <div class="ratting flex gap-3.5 px-[26px] py-[18px] items-center rounded-xl bg-[#ffffff] lg:absolute left-24 shadow-md">
                 <img src="./assets/images/Group 5.png" alt="">
                 <div class="rate">
@@ -65,37 +65,84 @@
             </div>
         </section>
 
-        <section class="flex flex-col justify-center lg:justify-between lg:flex-row gap-[52px]">
+        <section class="flex flex-col justify-center xl:justify-between xl:flex-row gap-[52px]">
             <figure class="flex justify-center gap-7">
                 <div class="flex flex-col gap-7">
 
-                    <div class="empty w-[238px] h-[136px] bg-linear-to-l from-[#ff0000] to-[#ff8938] opacity-[0.1] rounded-[10px]"></div>
+                    <div class="empty hidden sm:block w-[238px] h-[136px] bg-linear-to-l from-[#ff0000] to-[#ff8938] opacity-[0.1] rounded-[10px]"></div>
                     <img src="./assets/images/fresh-2.png" class="w-[238px] h-[350px] px-[46px] py-8 bg-[#5776391a] rounded-[10px]" alt="">
                 </div>
                 <div class="flex flex-col-reverse gap-7">
 
-                    <div class="empty w-[238px] h-[136px] bg-linear-to-l from-[#ffffff] to-[#d9d9d9] opacity-[1] rounded-[10px]"></div>
+                    <div class="empty hidden sm:block w-[238px] h-[136px] bg-linear-to-l from-[#ffffff] to-[#d9d9d9] opacity-[1] rounded-[10px]"></div>
                     <img src="./assets/images/fresh-1.png" class="w-[238px] h-[350px] px-[46px] pb-8 pt-[51px] bg-[#e6a6231a] rounded-[10px]" alt="">
                 </div>
 
             </figure>
             <div class="present flex flex-col justify-between">
-                <h2 class="text-[45px] font-bold leading-[100%]">Great Tea, Freshly Presented</h2>
-                <p class="my-5 font-medium leading-7 text-[#777777] ">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+                <h2 class="text-[45px] font-bold">Great Tea, Freshly Presented</h2>
+                <p class="my-4 font-medium leading-7 text-[#777777] ">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
                 <h4 class="text-xl leading-[100%] font-semibold">
                     Unique Taste
                 </h4>
-                <p class="my-5 font-medium leading-7 text-[#777777] ">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+                <p class="my-4 font-medium leading-7 text-[#777777] ">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
 
                 <h4 class="text-xl leading-[100%] font-semibold">
                     Premium Quality
                 </h4>
 
-                <p class="mt-5 font-medium leading-7 text-[#777777] ">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+                <p class="mt-4 font-medium leading-7 text-[#777777] ">Premium Quality that makes tea more elegant and more durable when you use it.</p>
             </div>
 
         </section>
 
+        <section class="bg-linear-to-l from-[#ff0000] to-[#ff8938] min-h-[650px] rounded-xl my-30 px-[70px] py-[100px] gap-10 flex flex-col lg:flex-row items-center justify-between">
+            <div class="meet w-[440px]">
+
+                <h2 class="text-[32px] lg:text-[45px] font-bold text-white ">Meet Our Super Clients</h2>
+                <p class="my-5 font-medium leading-7 text-[#ffffff] ">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+                <button class="text-[#ff8938] font-bold bg-white py-[14px] px-7 rounded-xl">Show All</button>
+            </div>
+            <div class="business-card-box relative bg-transparent z-20 ">
+                <div class="card absolute z-10 -left-[450px] -top-[240px] rounded-xl bg-white p-10 w-[433px] opacity-40">
+                    <img src="./assets/images/client.png" class="absolute border-4 -top-6 -left-6 rounded-[50px] border-[#ffffff]" alt="">
+                    <p class="mb-5 font-medium leading-7 text-[#777777]">
+                        We are providing the best and suitable home insurance services for the people who are interested to treatment
+                    </p>
+                    <h4 class="leading-7 font-bold">
+                        Ilham Yuda
+                    </h4>
+                    <p class="text-[#777777]">
+                        Businessman
+                    </p>
+                </div>
+                <div class="card absolute -left-[550px] -top-[100px] z-40 rounded-xl bg-white p-10 w-[433px]">
+                    <img src="./assets/images/client.png" class="absolute border-4 -top-6 -left-6 rounded-[50px] border-[#ffffff]" alt="">
+                    <p class="mb-5 font-medium leading-7 text-[#777777]">
+                        We are providing the best and suitable home insurance services for the people who are interested to treatment
+                    </p>
+                    <h4 class="leading-7 font-bold">
+                        Ilham Yuda
+                    </h4>
+                    <p class="text-[#777777]">
+                        Businessman
+                    </p>
+                </div>
+                <div class="card absolute -left-[450px] top-[40px] rounded-xl bg-white p-10 w-[433px] opacity-40">
+                    <img src="./assets/images/client.png" class="absolute border-4 -top-6 -left-6 rounded-[50px] border-[#ffffff]" alt="">
+                    <p class="mb-5 font-medium leading-7 text-[#777777]">
+                        We are providing the best and suitable home insurance services for the people who are interested to treatment
+                    </p>
+                    <h4 class="leading-7 font-bold">
+                        Ilham Yuda
+                    </h4>
+                    <p class="text-[#777777]">
+                        Businessman
+                    </p>
+                </div>
+            </div>
+
+        </section>
 
         <section class="my-30 ">
             <h2 class="text-[45px] font-bold leading-[100%] text-center">News & Events</h2>
